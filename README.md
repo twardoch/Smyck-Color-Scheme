@@ -1,7 +1,7 @@
 # Smyck Color Scheme
 
 This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
-MacVim, Textmate and Sublime Text 2.
+MacVim, Textmate, Sublime Text 2 and Xcode.
 
 The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
@@ -12,7 +12,11 @@ should not hurt the eyes even after a whole day of working.
 
 ![Screenshot 2](http://smyck.org/smyck/color_2.jpg)
 
-![Screenshot 4](http://smyck.org/smyck/color_4.jpg)
+![Screenshot 3](http://smyck.org/smyck/color_4.jpg)
+
+![Sreenshot 4](http://dl.dropbox.com/u/36597340/internetcrap/objectivec.png)
+
+![Screenshot 5](http://dl.dropbox.com/u/36597340/internetcrap/c%2B%2B.png)
 
 # Disclaimer
 
