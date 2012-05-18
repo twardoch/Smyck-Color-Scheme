@@ -6,6 +6,18 @@ MacVim, Textmate, Sublime Text 2 and Xcode.
 The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
 
+## Installing Xcode color theme
+
+Navigate to your Color-Themes directory
+
+	~/Library/Developer/Xcode/UserData/FontAndColorThemes
+
+and insert the file named 'Smyck.dvcolortheme'. 
+
+If opened, restart Xcode. Then go to preferences \ Fonts & Colors and select 'Smyck' in the sidebar on the left.
+
+Enjoy!
+
 # Screenshots
 
 ![Screenshot 1](http://smyck.org/smyck/color_1.jpg)
