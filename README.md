@@ -24,7 +24,7 @@ and select 'Smyck' in the sidebar on the left.
 
 Enjoy!
 
-# Screenshots
+## Screenshots
 
 ![Sreenshot 4](http://dl.dropbox.com/u/36597340/internetcrap/objectivec.png)
 
@@ -36,7 +36,7 @@ Enjoy!
 
 ![Screenshot 3](http://smyck.org/smyck/color_4.jpg)
 
-# Disclaimer
+## Disclaimer
 
 Currently its still a moving target but if you want to help, please try
 it out and report screenshots of weird looking things.
