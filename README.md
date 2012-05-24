@@ -32,6 +32,8 @@ In Coda 2, go to
 
 click the little gearwheel-icon. Then click on "Import" and navigate to the Smyck.sss file you just downloaded! 
 
+To get the best results, I additionally recommend setting your Font-size to "Menlo, Bold, 13". To do that, just go to the "Editor"-Tab in the preferences menu and change the "Editor Font". 
+
 Enjoy!
 
 ## Screenshots
