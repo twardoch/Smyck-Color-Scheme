@@ -1,7 +1,7 @@
 # Smyck Color Scheme
 
 This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
-MacVim, Textmate, Sublime Text 2 and Xcode.
+MacVim, Textmate, Sublime Text 2, Xcode 4 and now Coda 2!
 
 The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
@@ -24,17 +24,36 @@ and select 'Smyck' in the sidebar on the left.
 
 Enjoy!
 
+## Coda 2
+
+In Coda 2, go to
+
+	Preferences | Colors
+
+click the little gearwheel-icon. Then click on "Import" and navigate to the Smyck.sss file you just downloaded! 
+
+Enjoy!
+
 ## Screenshots
 
-![Sreenshot 4](http://dl.dropbox.com/u/36597340/internetcrap/objectivec.png)
+### Xcode 4
 
-![Screenshot 5](http://dl.dropbox.com/u/36597340/internetcrap/c%2B%2B.png)
+![Sreenshot 1](http://dl.dropbox.com/u/36597340/internetcrap/objectivec.png)
 
-![Screenshot 1](http://smyck.org/smyck/color_1.jpg)
+![Screenshot 2](http://dl.dropbox.com/u/36597340/internetcrap/c%2B%2B.png)
 
-![Screenshot 2](http://smyck.org/smyck/color_2.jpg)
+### Coda 2
 
-![Screenshot 3](http://smyck.org/smyck/color_4.jpg)
+![Screenshot 3](http://dl.dropbox.com/u/36597340/internetcrap/a.png)
+
+![Screenshot 4](http://dl.dropbox.com/u/36597340/internetcrap/b.png)
+
+### Vim
+
+![Screenshot 5](http://smyck.org/smyck/color_1.jpg)
+
+![Screenshot 6](http://smyck.org/smyck/color_2.jpg)
+
 
 ## Disclaimer
 
