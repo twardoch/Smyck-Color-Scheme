@@ -7,7 +7,7 @@ The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
 
 # Eclipse
-It is recommended to use the Eclipse Color Themes plugin. It allows easy switching between different themes:
+It is recommend to use the Eclipse Color Themes plugin. It allows easy switching between different themes:
 http://www.eclipsecolorthemes.org
 
 Source for this color theme on the website above:
