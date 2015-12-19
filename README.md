@@ -1,10 +1,12 @@
 # Smyck Color Scheme
 
-This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
-MacVim, Textmate and Sublime Text 2.
+This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim, MacVim, Textmate, Sublime Text 2, and Xfce Terminal.
 
-The colors are carefully chosen and the contrasts are tuned so that it
-should not hurt the eyes even after a whole day of working.
+The colors are carefully chosen and the contrasts are tuned so that it should not hurt the eyes even after a whole day of working.
+
+## Xfce Terminal
+
+Copy smyck.theme to ~/.local/share/xfce4/terminal/colorschemes/ and it should show up under the Color Presets.
 
 # Screenshots
 
