@@ -8,6 +8,11 @@ The colors are carefully chosen and the contrasts are tuned so that it should no
 
 Copy smyck.theme to ~/.local/share/xfce4/terminal/colorschemes/ and it should show up under the Color Presets.
 
+## Eclipse
+There is also an Eclipse adoption of this theme available at
+[https://github.com/m42i/Smyck-Color-Scheme](https://github.com/m42i/Smyck-Color-Scheme).
+
+
 # Screenshots
 
 ![Screenshot 1](http://smyck.org/smyck/color_1.jpg)
@@ -16,15 +21,11 @@ Copy smyck.theme to ~/.local/share/xfce4/terminal/colorschemes/ and it should sh
 
 ![Screenshot 4](http://smyck.org/smyck/color_4.jpg)
 
+
 # Disclaimer
 
 Currently its still a moving target but if you want to help, please try
 it out and report screenshots of weird looking things.
 
-There is also an Eclipse adoption of this theme available at
-[https://github.com/m42i/Smyck-Color-Scheme](https://github.com/m42i/Smyck-Color-Scheme).
-
 Once the final color map is done this repository will include a proper
 documentation.
-
-
