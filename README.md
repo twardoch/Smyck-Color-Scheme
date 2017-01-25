@@ -13,8 +13,16 @@ This is a color scheme suitable for:
 * Vim
 * Xcode 4
 
-The colors are carefully chosen and the contrasts are tuned so that it
-should not hurt the eyes even after a whole day of working.
+The colors are carefully chosen and the contrasts are tuned so that it should not hurt the eyes even after a whole day of working.
+
+## Xfce Terminal
+
+Copy smyck.theme to ~/.local/share/xfce4/terminal/colorschemes/ and it should show up under the Color Presets.
+
+## Eclipse
+There is also an Eclipse adoption of this theme available at
+[https://github.com/m42i/Smyck-Color-Scheme](https://github.com/m42i/Smyck-Color-Scheme).
+
 
 # Eclipse
 It is recommend to use the Eclipse Color Themes plugin. It allows easy switching between different themes:
@@ -31,6 +39,8 @@ Navigate to your Color-Themes directory
 
 and add the file named 'Smyck.dvcolortheme'. 
 
+
+# Disclaimer
 If you haven't made any changes to a theme so far, the directory might not exist yet! In that case, just create a folder named 'FontAndColorThemes' in Xcode/UserData and add the 'Smyck.dvcolortheme' file.
  
 If opened, restart Xcode. Then go to:
@@ -79,10 +89,5 @@ Enjoy!
 Currently its still a moving target but if you want to help, please try
 it out and report screenshots of weird looking things.
 
-There is also an Eclipse adoption of this theme available at
-[https://github.com/m42i/Smyck-Color-Scheme](https://github.com/m42i/Smyck-Color-Scheme).
-
 Once the final color map is done this repository will include a proper
 documentation.
-
-
