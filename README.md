@@ -1,7 +1,17 @@
 # Smyck Color Scheme
 
-This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
-MacVim, Textmate and Sublime Text 2.
+This is a color scheme suitable for: 
+
+* Coda 2
+* gVim
+* iTerm2
+* JetBrais IDEs
+* MacVim
+* Sublime Text 2/3
+* Terminal.app
+* TextMate
+* Vim
+* Xcode 4
 
 The colors are carefully chosen and the contrasts are tuned so that it
 should not hurt the eyes even after a whole day of working.
@@ -15,13 +25,56 @@ http://www.eclipsecolorthemes.org/?view=theme&id=6859
 
 # Screenshots
 
-![Screenshot 1](http://smyck.org/smyck/color_1.jpg)
+Navigate to your Color-Themes directory
 
-![Screenshot 2](http://smyck.org/smyck/color_2.jpg)
+	~/Library/Developer/Xcode/UserData/FontAndColorThemes
 
-![Screenshot 4](http://smyck.org/smyck/color_4.jpg)
+and add the file named 'Smyck.dvcolortheme'. 
 
-# Disclaimer
+If you haven't made any changes to a theme so far, the directory might not exist yet! In that case, just create a folder named 'FontAndColorThemes' in Xcode/UserData and add the 'Smyck.dvcolortheme' file.
+ 
+If opened, restart Xcode. Then go to:
+
+	Preferences | Fonts & Colors
+
+and select 'Smyck' in the sidebar on the left.
+
+Enjoy!
+
+## Coda 2
+
+In Coda 2, go to
+
+	Preferences | Colors
+
+click the little gearwheel-icon. Then click on "Import" and navigate to the Smyck.sss file you just downloaded! 
+
+To get the best results, I additionally recommend setting your Font-size to "Menlo, Bold, 13". To do that, just go to the "Editor"-Tab in the preferences menu and change the "Editor Font". 
+
+Enjoy!
+
+## Screenshots
+
+### Xcode 4
+
+![Sreenshot 1](http://dl.dropbox.com/u/36597340/internetcrap/objectivec.png)
+
+![Screenshot 2](http://dl.dropbox.com/u/36597340/internetcrap/c%2B%2B.png)
+
+### Coda 2
+
+![Screenshot 3](http://dl.dropbox.com/u/36597340/internetcrap/a.png)
+
+![Screenshot 4](http://dl.dropbox.com/u/36597340/internetcrap/b.png)
+
+### Vim
+
+![Screenshot 5](http://smyck.org/smyck/color_1.jpg)
+
+![Screenshot 6](http://smyck.org/smyck/color_2.jpg)
+
+
+## Disclaimer
 
 Currently its still a moving target but if you want to help, please try
 it out and report screenshots of weird looking things.
