@@ -3,6 +3,7 @@
 This is a color scheme suitable for: 
 
 * Coda 2
+* Eclipse
 * gVim
 * iTerm2
 * JetBrais IDEs
@@ -20,11 +21,6 @@ The colors are carefully chosen and the contrasts are tuned so that it should no
 Copy smyck.theme to ~/.local/share/xfce4/terminal/colorschemes/ and it should show up under the Color Presets.
 
 ## Eclipse
-There is also an Eclipse adoption of this theme available at
-[https://github.com/m42i/Smyck-Color-Scheme](https://github.com/m42i/Smyck-Color-Scheme).
-
-
-# Eclipse
 It is recommend to use the Eclipse Color Themes plugin. It allows easy switching between different themes:
 http://www.eclipsecolorthemes.org
 
