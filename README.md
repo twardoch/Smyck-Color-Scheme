@@ -1,6 +1,11 @@
 # Smyck Color Scheme
 
+<<<<<<< .merge_file_oFifVZ
 This is a color scheme suitable for: 
+=======
+This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
+MacVim, Textmate, Sublime Text 2, Xcode 4 and now Coda 2!
+>>>>>>> .merge_file_z07jkO
 
 * Coda 2
 * Eclipse
@@ -27,9 +32,10 @@ http://www.eclipsecolorthemes.org
 Source for this color theme on the website above:
 http://www.eclipsecolorthemes.org/?view=theme&id=6859
 
-# Screenshots
+## Adding the Smyck-Theme to Xcode 4
 
 Navigate to your Color-Themes directory
+<<<<<<< .merge_file_oFifVZ
 
 	~/Library/Developer/Xcode/UserData/FontAndColorThemes
 
@@ -37,6 +43,13 @@ and add the file named 'Smyck.dvcolortheme'.
 
 
 # Disclaimer
+=======
+
+	~/Library/Developer/Xcode/UserData/FontAndColorThemes
+
+and add the file named 'Smyck.dvcolortheme'. 
+
+>>>>>>> .merge_file_z07jkO
 If you haven't made any changes to a theme so far, the directory might not exist yet! In that case, just create a folder named 'FontAndColorThemes' in Xcode/UserData and add the 'Smyck.dvcolortheme' file.
  
 If opened, restart Xcode. Then go to:
