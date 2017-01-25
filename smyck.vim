@@ -12,14 +12,13 @@ if exists("syntax_on")
 endif
 
 set background=dark
-set linespace=3
 
 let g:colors_name = "smyck"
 
 hi Normal               cterm=none ctermbg=none     ctermfg=15      gui=none        guibg=#282828   guifg=#F7F7F7
 hi LineNr               cterm=none ctermbg=none     ctermfg=8       gui=none        guibg=#282828   guifg=#8F8F8F
 hi StatusLine           cterm=none ctermbg=8        ctermfg=15      gui=none        guibg=#5D5D5D   guifg=#FBFBFB
-hi StatusLineNC         cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#5D5D5D   guifg=#FBFBFB
+hi StatusLineNC         cterm=none ctermbg=15       ctermfg=8       gui=none        guibg=#FBFBFB   guifg=#5D5D5D
 hi Search               cterm=none ctermbg=6        ctermfg=15      gui=none        guibg=#2EB5C1   guifg=#F7F7F7
 hi IncSearch            cterm=none ctermbg=3        ctermfg=8       gui=none        guibg=#F6DC69   guifg=#8F8F8F
 hi ColumnMargin         cterm=none ctermbg=0                        gui=none        guibg=#000000
@@ -47,8 +46,6 @@ hi MatchParen           cterm=none ctermbg=6        ctermfg=15      gui=none    
 hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
 hi CursorColumn         cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
 hi Title                cterm=none ctermbg=none     ctermfg=4       gui=none                        guifg=#88CCE7
-hi VertSplit            cterm=bold ctermbg=none     ctermfg=8       gui=bold        guibg=#282828   guifg=#8F8F8F
-hi SignColumn           cterm=bold ctermbg=none     ctermfg=8       gui=bold        guibg=#282828   guifg=#8F8F8F
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
@@ -93,5 +90,4 @@ hi link rubyConditional       Keyword
 hi link rubyInterpolation     Interpolation
 hi link rubyInterpolationDelimiter    Interpolation
 hi link rubyRailsMethod       Method
-
 

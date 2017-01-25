@@ -1,0 +1,340 @@
+author: Stanley Rost and Adam Twardoch
+comment: hukl, 2011 | twardoch, 2017
+name: Smyck 2
+settings:
+-   name: mon_color
+    scope: mcol_A52A2AFF
+    settings:
+        background: '#A52A2AFF'
+        foreground: '#D55959FF'
+        caret: '#D55959FF'
+-   name: mon_text_color
+    scope: mcol_text_A52A2AFF
+    settings:
+        background: '#1B1B1cFF'
+        foreground: '#A52A2AFF'
+        caret: '#D55959FF'
+-   settings:
+        background: '#1B1B1B'
+        caret: '#FFFA04'
+        foreground: '#F8F8F8'
+        invisibles: '#CAE2FB3D'
+        lineHighlight: '#FFFFFF1A'
+        selection: '#1FB6DC63'
+-   name: Comment
+    scope: comment
+    settings:
+        fontStyle: italic
+        foreground: '#939393'
+-   name: Constant
+    scope: constant.other
+    settings:
+        fontStyle: ''
+        foreground: '#F8B3AE'
+-   name: Erlang Macro
+    scope: entity.name.function.macro
+    settings:
+        fontStyle: ''
+        foreground: '#A8D6DC'
+-   name: Erlang Atom
+    scope: constant.other.symbol.unquoted
+    settings:
+        foreground: '#E3FF73'
+-   name: Constant
+    scope: constant
+    settings:
+        fontStyle: ''
+        foreground: '#EBEBEB'
+-   name: Entity
+    scope: entity
+    settings:
+        fontStyle: ''
+        foreground: '#A5EAFC'
+-   name: Keyword
+    scope: keyword
+    settings:
+        fontStyle: ''
+        foreground: '#D1FA72'
+-   name: Keyword Numeric
+    scope: constant.numeric
+    settings:
+        fontStyle: ''
+        foreground: '#F6DD6A'
+-   name: Keyword Operator
+    scope: keyword.operator
+    settings:
+        fontStyle: ''
+        foreground: '#EBEBEB'
+-   name: Storage
+    scope: storage
+    settings:
+        fontStyle: ''
+        foreground: '#AFEE7F'
+-   name: String
+    scope: string
+    settings:
+        fontStyle: ''
+        foreground: '#F6DD6A'
+-   name: Support
+    scope: support
+    settings:
+        fontStyle: ''
+        foreground: '#A5EAFC'
+-   name: Invalid – Deprecated
+    scope: invalid.deprecated
+    settings:
+        fontStyle: italic underline
+        foreground: '#FD5FF1'
+-   name: Variable
+    scope: variable
+    settings:
+        fontStyle: ''
+        foreground: '#9EE4FE'
+-   name: Invalid – Illegal
+    scope: invalid.illegal
+    settings:
+        background: '#562D56BF'
+        foreground: '#FD5FF1'
+-   name: '-----------------------------------'
+    settings: {}
+-   name: ♦ Embedded Source (Bright)
+    scope: text source
+    settings:
+        background: '#B1B3BA08'
+-   name: ♦ Entity inherited-class
+    scope: entity.other.inherited-class
+    settings:
+        fontStyle: italic
+        foreground: '#9EE4FE'
+-   name: ♦ String embedded-source
+    scope: string.quoted source
+    settings:
+        fontStyle: ''
+        foreground: '#40A8B6'
+-   name: ♦ String constant
+    scope: string constant
+    settings:
+        foreground: '#DDF2A4'
+-   name: ♦ String.regexp
+    scope: string.regexp
+    settings:
+        foreground: '#E9C062'
+-   name: ♦ String.regexp.«special»
+    scope: string.regexp constant.character.escape, string.regexp source.ruby.embedded,
+        string.regexp string.regexp.arbitrary-repitition
+    settings:
+        foreground: '#CF7D34'
+-   name: ♦ String variable
+    scope: string variable
+    settings:
+        foreground: '#8A9A95'
+-   name: ♦ Support.function
+    scope: support.function
+    settings:
+        fontStyle: ''
+        foreground: '#F4F4F4'
+-   name: ♦ Support.constant
+    scope: support.constant
+    settings:
+        fontStyle: ''
+        foreground: '#FAA49C'
+-   name: c C/C++ Preprocessor Line
+    scope: meta.preprocessor.c
+    settings:
+        foreground: '#8996A8'
+-   name: c C/C++ Preprocessor Directive
+    scope: meta.preprocessor.c keyword
+    settings:
+        foreground: '#AFC4DB'
+-   name: j Entity Name Type
+    scope: entity.name.type
+    settings:
+        fontStyle: ''
+        foreground: '#9EE4FE'
+-   name: j Cast
+    scope: meta.cast
+    settings:
+        fontStyle: italic
+        foreground: '#676767'
+-   name: ✘ Doctype/XML Processing
+    scope: meta.sgml.html meta.doctype, meta.sgml.html meta.doctype entity, meta.sgml.html
+        meta.doctype string, meta.xml-processing, meta.xml-processing entity, meta.xml-processing
+        string
+    settings:
+        foreground: '#494949'
+-   name: ✘ Meta.tag.«all»
+    scope: meta.tag, meta.tag entity
+    settings:
+        foreground: '#89BDFF'
+-   name: ✘ Meta.tag.inline
+    scope: source entity.name.tag, source entity.other.attribute-name, meta.tag.inline,
+        meta.tag.inline entity
+    settings:
+        foreground: '#E0C589'
+-   name: ✘ Namespaces
+    scope: entity.name.tag.namespace, entity.other.attribute-name.namespace
+    settings:
+        foreground: '#E18964'
+-   name: § css tag-name
+    scope: meta.selector.css entity.name.tag
+    settings:
+        foreground: '#CDA869'
+-   name: § css:pseudo-class
+    scope: meta.selector.css entity.other.attribute-name.tag.pseudo-class
+    settings:
+        foreground: '#8F9D6A'
+-   name: § css#id
+    scope: meta.selector.css entity.other.attribute-name.id
+    settings:
+        foreground: '#8B98AB'
+-   name: § css.class
+    scope: meta.selector.css entity.other.attribute-name.class
+    settings:
+        foreground: '#9B703F'
+-   name: '§ css property-name:'
+    scope: support.type.property-name.css
+    settings:
+        foreground: '#C5AF75'
+-   name: § css property-value;
+    scope: meta.property-group support.constant.property-value.css, meta.property-value
+        support.constant.property-value.css
+    settings:
+        foreground: '#F9EE98'
+-   name: § css @at-rule
+    scope: meta.preprocessor.at-rule keyword.control.at-rule
+    settings:
+        foreground: '#8693A5'
+-   name: § css additional-constants
+    scope: meta.property-value support.constant.named-color.css, meta.property-value
+        constant
+    settings:
+        foreground: '#DD7B3B'
+-   name: § css constructor.argument
+    scope: meta.constructor.argument.css
+    settings:
+        foreground: '#8F9D6A'
+-   name: ⎇ diff.header
+    scope: meta.diff, meta.diff.header
+    settings:
+        background: '#0E2231'
+        fontStyle: italic
+        foreground: '#F8F8F8'
+-   name: ⎇ diff.deleted
+    scope: markup.deleted
+    settings:
+        background: '#420E09'
+        foreground: '#F8F8F8'
+-   name: ⎇ diff.changed
+    scope: markup.changed
+    settings:
+        background: '#4A410D'
+        foreground: '#F8F8F8'
+-   name: ⎇ diff.inserted
+    scope: markup.inserted
+    settings:
+        background: '#253B22'
+        foreground: '#F8F8F8'
+-   name: '--------------------------------'
+    settings: {}
+-   name: 'Markup: Italic'
+    scope: markup.italic
+    settings:
+        fontStyle: italic
+        foreground: '#E9C062'
+-   name: 'Markup: Bold'
+    scope: markup.bold
+    settings:
+        fontStyle: bold
+        foreground: '#E9C062'
+-   name: 'Markup: Underline'
+    scope: markup.underline
+    settings:
+        fontStyle: underline
+        foreground: '#E18964'
+-   name: 'Markup: Quote'
+    scope: markup.quote
+    settings:
+        background: '#FEE09C12'
+        fontStyle: italic
+        foreground: '#E1D4B9'
+-   name: 'Markup: Heading'
+    scope: markup.heading, markup.heading entity
+    settings:
+        background: '#632D04'
+        fontStyle: ''
+        foreground: '#FEED1E'
+-   name: 'Markup: List'
+    scope: markup.list
+    settings:
+        foreground: '#E1D4B9'
+-   name: 'Markup: Raw'
+    scope: markup.raw
+    settings:
+        background: '#B1B3BA08'
+        fontStyle: ''
+        foreground: '#578BB3'
+-   name: 'Markup: Comment'
+    scope: markup comment
+    settings:
+        fontStyle: italic
+        foreground: '#F67B37'
+-   name: 'Markup: Separator'
+    scope: meta.separator
+    settings:
+        background: '#242424'
+        foreground: '#60A633'
+-   name: Log Entry
+    scope: meta.line.entry.logfile, meta.line.exit.logfile
+    settings:
+        background: '#EEEEEE29'
+-   name: Log Entry Error
+    scope: meta.line.error.logfile
+    settings:
+        background: '#751012'
+-   name: Erlang Function Definition
+    scope: entity.name.function.definition.erlang
+    settings:
+        foreground: '#E3FF73'
+-   name: SublimeLinter Warning
+    scope: sublimelinter.mark.warning
+    settings:
+        foreground: '#DDB700'
+-   name: SublimeLinter Error
+    scope: sublimelinter.mark.error
+    settings:
+        foreground: '#D02000'
+-   name: SublimeLinter Gutter Mark
+    scope: sublimelinter.gutter-mark
+    settings:
+        foreground: '#FFFFFF'
+-   name: SublimePythonIDE Error
+    scope: sublimepythonide.mark.error
+    settings:
+        foreground: '#DA2000'
+-   name: SublimePythonIDE Warning
+    scope: sublimepythonide.mark.warning
+    settings:
+        foreground: '#EDBA00'
+-   name: SublimePythonIDE Gutter Mark
+    scope: sublimepythonide.gutter-mark
+    settings:
+        foreground: '#FFFFFF'
+-   name: Python Flake8 Lint Critical
+    scope: flake8lint.mark.critical
+    settings:
+        foreground: '#981600'
+-   name: Python Flake8 Lint Warning
+    scope: flake8lint.mark.warning
+    settings:
+        foreground: '#EDBA00'
+-   name: Python Flake8 Lint Gutter Mark
+    scope: flake8lint.mark.gutter
+    settings:
+        foreground: '#FFFFFF'
+-   name: Python Flake8 Lint Error
+    scope: flake8lint.mark.error
+    settings:
+        foreground: '#DA2000'
+uuid: 19163402-18CF-4A32-9E84-3F2D72836B69
+colorSpaceName: sRGB
+semanticClass: theme.dark.smyck_2
